@@ -1,0 +1,90 @@
+body {
+	background-image: url("https://texturefabrik.files.wordpress.com/2013/05/paper_01.jpg");
+}
+.top {
+	background-color: #f2f2f2;
+	padding:50px;
+	position: relative;
+}
+header {
+	background-color: #009999;
+	color: white;
+	float: left;
+	padding: 20px 10px 1px 20px;
+	font-family: Times New Roman;
+	font-weight: bold;
+	font-size: 40px;
+	margin-left: 50px;
+	margin-top: -50px;
+	position: static;
+}
+header:after {
+	content: "";
+	clear: both;
+	margin: 30px;
+
+}
+.port {
+	font-family: Times New Roman;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 10px 1px 20px;
+}
+.com {
+	font-family: Times New Roman;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px 10px 1px 20px;
+}
+.list {
+	background-color: #e6e6e6;
+	color: grey;
+	font-family: arial;
+	float: right;
+	padding: 20px 10px 5px 20px;
+	margin-right: 60px;
+	margin-top: -15px;
+	position: relative;
+}
+.aboutme {
+	background-color: white;
+	padding: 20px 10px 50px 20px;
+	float: left;
+	font-family: arial;
+	margin: 50px 800px 50px 100px;
+}
+.aboutline {
+	background-color: #666;
+	padding: 1px 4px 2px 1px;
+	margin: 15px 1px 15px 1px;
+}
+.connect {
+	background-color: white;
+	color: grey;
+	font-family: arial;
+	float: right;
+	padding: 20px 10px 5px 20px;
+	margin: -475px 250px -100px 200px;
+}
+#aboutme { 
+	text-decoration: none;
+	color: #009999;
+	font-weight: bold;
+	font-size: 33px;
+}
+.pic {
+	position: static;
+}
+.above {
+	background-color: blue;
+	float: initial;
+	padding: 10px 10px 20px 20px;
+	margin: 500px 11px -105px 1px;
+}
+footer {
+	background-color: #999;
+	text-align: center;
+	padding: 20px ;
+	margin: 10px 0px 0px 0px;
+}
